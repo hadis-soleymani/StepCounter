@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98996153018",
+    "project_id": "stepcounter-acaa5",
+    "storage_bucket": "stepcounter-acaa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98996153018:android:00482b6f621497c6a0f083",
+        "android_client_info": {
+          "package_name": "com.reactnativeonm1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98996153018-aalk95a5ia2m1vitq154q0k7qeraram5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRuoH7Y1Fh76-N3UobJoqg6VimqzbBShI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98996153018-aalk95a5ia2m1vitq154q0k7qeraram5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
