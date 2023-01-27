@@ -43,7 +43,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 import MapboxGL from "@rnmapbox/maps";
-MapboxGL.setWellKnownTileServer('Mapbox');
+MapboxGL.setWellKnownTileServer('Mapbox');// solve http error
 MapboxGL.setAccessToken("pk.eyJ1IjoiaGFkaXNzb2xleW1hbmkiLCJhIjoiY2t5d29qbGprMGFqZzJ3cDhnazlhdzR2aCJ9.TYKzTiV2hw91qmw87O4Qow");
 
 const styles = StyleSheet.create({
