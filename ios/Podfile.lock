@@ -351,6 +351,13 @@ PODS:
     - Firebase/Auth (= 10.3.0)
     - React-Core
     - RNFBApp
+  - rnmapbox-maps (10.0.0-beta.65):
+    - React
+    - React-Core
+    - rnmapbox-maps/DynamicLibrary (= 10.0.0-beta.65)
+  - rnmapbox-maps/DynamicLibrary (10.0.0-beta.65):
+    - React
+    - React-Core
   - RNScreens (3.18.2):
     - React-Core
     - React-RCTImage
@@ -395,6 +402,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
+  - "rnmapbox-maps (from `../node_modules/@rnmapbox/maps`)"
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -483,6 +491,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBAuth:
     :path: "../node_modules/@react-native-firebase/auth"
+  rnmapbox-maps:
+    :path: "../node_modules/@rnmapbox/maps"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -534,9 +544,10 @@ SPEC CHECKSUMS:
   ReactCommon: 349be31adeecffc7986a0de875d7fb0dcf4e251c
   RNFBApp: 1f48f0e6e976f8b7cc1ead051479fa4051727eb8
   RNFBAuth: c57900be8bfa907b6172c3a033f7a02befae7708
+  rnmapbox-maps: a75f413bbb6ac9e284a2239602b64bd1924e7210
   RNScreens: 34cc502acf1b916c582c60003dc3089fa01dc66d
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
 
-PODFILE CHECKSUM: 422dd34113f9af65a1bb44b2be86211eec05ffc4
+PODFILE CHECKSUM: 5ad84ee7e4f73754147bbd69bce744d0e60f12b1
 
 COCOAPODS: 1.11.3

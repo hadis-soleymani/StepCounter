@@ -3,6 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 $RNFirebaseAsStaticFramework = true
 
+
 platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 use_frameworks! :linkage => :static
@@ -32,8 +33,11 @@ target 'ReactNativeOnM1' do
     inherit! :complete
     # Pods for testing
   end
-
+  pre_install do |installer|
+    $RNMapboxMaps.pre_install(installer)
+  end
   post_install do |installer|
+    $RNMapboxMaps.post_install(installer)
     react_native_post_install(
       installer,
       # Set `mac_catalyst_enabled` to `true` in order to apply patches
